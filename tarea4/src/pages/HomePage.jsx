@@ -1,9 +1,9 @@
-import { Counter } from "../components/Counter"
-
+import { useEffect, useState } from "react"
+import {Navbar} from "../components/Navbar"
 export const HomePage = () => {
   return (
     <>
-    <h1>─── ⋆⋅☆⋅⋆ ──Bienvenido a mi pagina─── ⋆⋅☆⋅⋆ ──</h1>
+    <h1>Bienvenido a Springfield</h1>
     </>
   )
 }
